@@ -91,8 +91,19 @@
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
-
-
+<script>
+$(document).ready(function() {
+    $('.switch-on').on('switch-change', function (e, data) {
+        var $el = $(data.el)
+          , value = data.value;
+        if(value){//this is true if the switch is on
+           $('.name-number-form').show();
+        }else{
+           $('.name-number-form').hide();
+        }
+    });
+});
+</script>
 </body>
 
 </html>
