@@ -11,6 +11,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
 
     <!-- Add custom CSS here -->
     <style>
@@ -56,25 +57,59 @@
 
     <div class="container">
 
-        <div class= "row">
-			<h4>Welcome Gokaraju Rangaraju Institute of Engineering and Technology</h4>
-			<h4> Your Primary Key Word is: "<strong>GRIET</strong>" </h4>
+        
 			
-		</div>
-
-		<hr>		
-		<div class= "row">	
-		<h4> For getting started, visit <a href = "templates.html" target = "_blank">our simple starter guide. </a> </h4> 
 		
-		<h4> Download time-saving and pre-configured <a href = "templates.html" target = "_blank">Criticalys data templates</a> from our repository for best results. </h4>
-        <hr>
+		<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1><strong>Bootstrap - Microsoft Metro Tiles</strong></h1>
+	  <h3>Welcome Gokaraju Rangaraju Institute of Engineering and Technology</h3>
+			<h3> Your Primary Key Word is: "<strong>GRIET</strong>" </h3>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="tile orange" onclick="location.href='templates.html';" style="cursor: pointer;">
+        <h3 class="title">Choose from Our Templates</h3>
+        <p>Save your time by choosing our templates instead of developing a excel from scratch</p>
+      </div>
+    </div>
+	<div class="col-sm-4">
+      <div class="tile purple"  onclick="location.href='uploadExcel.html';" style="cursor: pointer;">
+        <h3 class="title">Upload a New Excel Sheet</h3>
+        <p>Please upload excel sheets in .xls or .xlsx format only</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="tile red" onclick="location.href='#';" style="cursor: pointer;">
 
-        <h4> Generic Excel templates.</h4>
+        <h3 class="title">View Uploaded Excel Sheets</h3>
+        <p>You can view/update/delete already uploaded excel sheets here</p>
+      </div>
+    </div>
+    
+  </div> 
+  
+ <hr>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="tile green">
+        <h3 class="title">Test SMS</h3>
+        <p>You can test whether the data you have uploaded can be pulled through SMS accurately</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="tile blue">
+        <h3 class="title">Reports</h3>
+        <p>View logs and know who pulled your data through SMS</p>
+      </div>
+    </div>    
+  </div>
+</div>
 
         <!-- https://editor.datatables.net/release/DataTables/extras/Editor/examples/inlineControls.html -->
-
-        <h4> Click Here to upload a new <a href = "uploadExcel.html" target = "_blank">excel sheet </a>here </h4>
-
 
 
         </div>
